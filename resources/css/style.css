@@ -137,3 +137,42 @@ footer{
     font-size: 1.5rem;
   }
 }
+@media only screen and (max-width: 470px){
+  .newarrival{
+    height: 15rem;
+    font-weight: bold;
+  }
+  .arrivaltext{
+   top: 10rem;
+   padding-left: 2rem;
+   width: 100%;
+  }
+  .arrivaltext span{
+  font-size: 0.77rem;
+  padding-top: 1rem;
+  }
+  .arrivaltext h1{
+    font-size: 1rem;
+  }
+  .product{
+    width: 90%;
+    margin:auto;
+  }
+  .product.watch{
+    display:none;
+  }
+  nav{
+    margin-top: 15px;
+  }
+  .info{
+    flex-wrap: wrap;
+    margin-top: 50px;
+  }
+  .infocont{
+    width: 90%;
+    margin: 0.5rem auto;
+  }
+footer{
+  text-align:center;
+}
+}
