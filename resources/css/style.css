@@ -61,7 +61,9 @@ nav {
   background: firebrick;
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-
+}
+.mobile{
+  display: none;
 }
 .shop {
   display:flex;
@@ -110,4 +112,28 @@ footer{
   padding: 5rem 0;
   background-color: black;
   margin-top: 4rem;
+}
+@media only screen and (max-width: 1024px){
+  nav span{
+    display: none;
+  }
+  .mobile{
+    display:block;
+    text-align: center;
+  }
+  .product.glasses{
+    display:none;
+  }
+  .product{
+      width: 47%;
+    }
+  .infocont{
+    width: 35%;
+  }
+  .arrivaltext span{
+    font-size: 0.80rem;
+  }
+  .arrivaltext h1{
+    font-size: 1.5rem;
+  }
 }
