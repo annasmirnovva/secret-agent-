@@ -89,3 +89,25 @@ nav {
   padding: 0.5rem;
   text-align: center;
 }
+.info{
+  display: flex;
+  justify-content: space-between;
+}
+.infocont{
+  display:block;
+  margin-top: 3rem;
+  width: 35%;
+}
+.infocont .head {
+  display: block;
+  background-color: black;
+  padding: 1rem 2rem;
+}
+.infocont .bottom{
+  color: black;
+}
+footer{
+  padding: 5rem 0;
+  background-color: black;
+  margin-top: 4rem;
+}
